@@ -4,3 +4,7 @@ html, body {
 html, aside{
   background-color: #2bb9d9;
 }
+#map{
+  width: auto;
+  height: 250px;
+}
