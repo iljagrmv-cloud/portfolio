@@ -32,7 +32,7 @@
 <body class="p-3 m-0 border-0 bd-example ">
   <nav class="navbar navbar-expand-lg bg-black navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img src="assets/logo.png" alt="logo" height="50" class="me-2">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,11 +52,11 @@
            </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="Webwiz.html">project: webwiz</a></li>
-              <li><a class="dropdown-item disabled" href="#">project 2</a></li>
-              <li><a class="dropdown-item disabled" href="#">project 3</a></li>
-              <li><a class="dropdown-item disabled" href="#">project 4</a></li>
-              <li><a class="dropdown-item disabled" href="#">project 5</a></li>
-              <li><a class="dropdown-item disabled" href="#">project 6</a></li>
+              <li><a class="dropdown-item" href="netwerken.html">project: netwerken</a></li>
+              <li><a class="dropdown-item" href="ai.html">project: ai</a></li>
+              <li><a class="dropdown-item" href="geheugen.html">project: geheugen</a></li>
+              <li><a class="dropdown-item" href="scripting.html">project: scripting</a></li>
+              <li><a class="dropdown-item" href="linux.html">project: linux</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -68,43 +68,29 @@
   </nav>
   <div class="container my-4">
     <div class="row">
-    
       <main class="col-md-8">
         <h2 class="mb-4">Stuur me een bericht</h2>
-      
-        <form>
-        
+        <form action="mailto:iljagromov@icloud.com" method="POST" enctype="text/plain" data-netlify="true" data-netlify-recaptcha="true">
           <div class="mb-3">
             <label for="naam" class="form-label">Naam</label>
             <input type="text" class="form-control" id="naam" placeholder="Jouw naam">
           </div>
-
-        
           <div class="mb-3">
             <label for="email" class="form-label">Email adres</label>
             <input type="email" class="form-control" id="email" placeholder="naam@voorbeeld.be">
           </div>
-
-        
           <div class="mb-3">
             <label for="onderwerp" class="form-label">Onderwerp</label>
             <input type="text" class="form-control" id="onderwerp" placeholder="Waar gaat het over?">
           </div>
-
-        
           <div class="mb-3">
             <label for="bericht" class="form-label">Bericht</label>
             <textarea class="form-control" id="bericht" rows="5" placeholder="Jouw bericht..."></textarea>
           </div>
           <div class="mb-2" data-netlify-recaptcha="true"></div>
-        
           <button type="submit" class="btn btn-primary">Verstuur bericht</button>
-          
         </form>
-        
       </main>
-
-    
       <aside class="col-md-4">
       
         
